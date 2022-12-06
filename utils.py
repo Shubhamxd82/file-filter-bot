@@ -1,6 +1,7 @@
 import logging
+from plugins.shortzy import Shortzy
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM
+from info import LONG_DROPLINK_URL, SHORTENER_API, AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message
@@ -375,3 +376,14 @@ def humanbytes(size):
         size /= power
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
+
+#link converter 
+
+shortzy = Shortzy(SHORTENER_API, "shareus.in")
+async def get_shortlink(link):
+    if SHORTENER_API:
+        if LONG_DROPLINK_URL == "True" or LONG_DROPLINK_URL is True:
+            return await shortzy.get_quick_link(link)
+        else:
+            return await shortzy.convert(link, silently_fail=False)
+    return link
