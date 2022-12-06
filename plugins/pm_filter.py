@@ -92,20 +92,20 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📃 Pages {round(int(offset) / 10) + 1} / {round(total / 10)}",
+            [InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"✪ ᴘᴀɢᴇ ✪ {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+            [InlineKeyboardButton(f"■ {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+             InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"■ {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     btn.insert(0, [
@@ -438,16 +438,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
         ], [
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='GHHM'),
-            InlineKeyboardButton(' ᴏᴡɴᴇʀ', callback_data='owner'),
-            InlineKeyboardButton(' 𝗦𝗼𝗻𝗴𝘀 ', callback_data='songs')
+            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='GHHM'),
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='owner'),
+            InlineKeyboardButton(' sᴏɴɢ ', callback_data='songs')
         ], [
-            InlineKeyboardButton('𝗨𝗥𝗟 𝗦𝗵𝗼𝗿𝘁', callback_data='urlshort'),
-            InlineKeyboardButton('𝗬.𝗧 𝗧𝗵𝘂𝗺𝗯', callback_data='ytthumb'),
-            InlineKeyboardButton('𝗬.𝗧 𝗩𝗶𝗱𝗲𝗼', callback_data='video')
+            InlineKeyboardButton('ᴜʀʟ ꜱʜᴏʀᴛ', callback_data='urlshort'),
+            InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ', callback_data='ytthumb'),
+            InlineKeyboardButton('ʏᴛ ᴠɪᴅᴇᴏ', callback_data='video')
         ], [
             InlineKeyboardButton('📊 sᴛᴀᴛᴜs 📊', callback_data='stats'),
-            InlineKeyboardButton('𝗙𝗶𝗹𝗲-𝗦𝘁𝗼𝗿𝗲', callback_data='malikk')
+            InlineKeyboardButton('ꜰɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='malikk')
         ], [
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ 🔐', callback_data='close_data')
@@ -472,8 +472,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "GHHM":
         buttons = [[
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮', callback_data='mbbumm')
+            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='extra'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='mbbumm')
         ], [
             InlineKeyboardButton('🏠 ʙᴀᴄᴋ 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ 🔐', callback_data='close_data')
@@ -565,7 +565,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "mbbumm":
         buttons = [[
-            InlineKeyboardButton('✳️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -833,12 +833,12 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{round(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"✪ ᴘᴀɢᴇ ✪ 1/{round(int(total_results) / 10)}", callback_data="pages"),
+             InlineKeyboardButton(text="ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="✪ ᴘᴀɢᴇ ✪ 1/1", callback_data="pages")]
         )
     btn.insert(0, [
         InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
