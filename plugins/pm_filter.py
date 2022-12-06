@@ -1,4 +1,4 @@
-# Kanged From @sahid malik
+# Kanged From @Akshay Chand
 import asyncio
 import re
 import ast
@@ -417,23 +417,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('💌 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/m_house786')
+            InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 🔎', url='https://t.me/iPapGroup'),
+            InlineKeyboardButton('⚡️ 𝐔𝐩𝐝𝐚𝐭𝐞 ⚡️', url='https://t.me/iPapkornOfficial')
             ],[
-            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
-            ],[
-            InlineKeyboardButton('🚀 Download YouTube video 🛰', callback_data='videos')
-            ],[
-            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
-            ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+            InlineKeyboardButton('♻️ 𝐇𝐞𝐥𝐩 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝐀𝐛𝐨𝐮𝐭 ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -449,18 +439,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀', callback_data='coct')
         ], [
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='GHHM'),
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 ', callback_data='start'),
-            InlineKeyboardButton(' SONGS ', callback_data='songs')
+            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', callback_data='owner'),
+            InlineKeyboardButton(' 𝗦𝗼𝗻𝗴𝘀 ', callback_data='songs')
         ], [
-            InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats'),
-            InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
+            InlineKeyboardButton('𝗨𝗥𝗟 𝗦𝗵𝗼𝗿𝘁', callback_data='urlshort'),
+            InlineKeyboardButton('𝗬.𝗧 𝗧𝗵𝘂𝗺𝗯', callback_data='ytthumb'),
+            InlineKeyboardButton('𝗬.𝗧 𝗩𝗶𝗱𝗲𝗼', callback_data='video')
         ], [
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
-            InlineKeyboardButton('video', callback_data='video'),
-            InlineKeyboardButton('File-Store', callback_data='malikk')
+            InlineKeyboardButton('📊 𝗦𝘁𝗮𝘁𝘀 📊', callback_data='stats'),
+            InlineKeyboardButton('𝗙𝗶𝗹𝗲-𝗦𝘁𝗼𝗿𝗲', callback_data='malikk')
         ], [
-            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
+            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -470,16 +460,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
-        ], [
+            InlineKeyboardButton('♥️ 𝗦𝗼𝘂𝗿𝗰𝗲 ❤️', callback_data='source'),
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
-        ], [
-            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik')
-        ], [
-            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -489,11 +472,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "GHHM":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮', callback_data='mbbumm')
         ], [
-            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start'),
+            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -526,7 +508,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_rules":
         buttons = [[
-            InlineKeyboardButton('💢 close 💢', callback_data='close_data')
+            InlineKeyboardButton('💢 𝗖𝗹𝗼𝘀𝗲 💢', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -560,7 +542,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='start'),
-            InlineKeyboardButton('❗️ CONTACT ❗️', url='https://t.me/sahid_malik')
+            InlineKeyboardButton('❗️ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 ❗️', url='https://t.me/AkshayChand10'),
+            InlineKeyboardButton('❤️ 𝗗𝗼𝗻𝗮𝘁𝗶𝗼𝗻 ❤️', callback_data='malik')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
