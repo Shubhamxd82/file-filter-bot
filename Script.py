@@ -110,7 +110,7 @@ Name - {}
 ɪᴛꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴍᴇ; ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ, ᴛʜᴀᴛꜱ ᴀʟʟ, ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴛʜᴇʀᴇ...😎
 ⚠️ ᴍᴏʀᴇ ʜᴇʟᴘ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ</b>"""
 
-    GHHM_TXT = """<b> Repo Developer
+    GHHM_TXT = """<b>Repo Developer
 <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
 
 More Features Add 1
