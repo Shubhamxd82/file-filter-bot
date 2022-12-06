@@ -109,7 +109,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('🔹 ᴴᵒʷ ᵗᵒ ᴼᵖᵉⁿ ᴸⁱⁿᵏ 🔹', url='https://youtu.be/cTVJuad-hMU')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -841,7 +841,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="✪ ᴘᴀɢᴇ ✪ 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('🔹 ᴴᵒʷ ᵗᵒ ᴼᵖᵉⁿ ᴸⁱⁿᵏ 🔹', url='https://youtu.be/cTVJuad-hMU')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -878,19 +878,31 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey...😎 {message.from_user.mention},\n\nHere is the result for your query {search}\n\n🖥 Movie Name : {search}\n📡Group : {message.chat.title}\n🤦Requested By : {message.from_user.mention}</b>"
+        cap = f"</b>📟 ᴍᴏᴠɪᴇ ɴᴀᴍᴇ:- {search}\n👩🏻‍💻 ʀᴇQᴜᴇꜱᴛ:- {message.from_user.mention}\n🚀 ɢʀᴏᴜᴘ:- {message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)
+            await hehe.delete()
+            await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)
+            await hmm.delete()
+            await message.delete()
         except Exception as e:
             logger.exception(e)
-            await message.reply_photo(photo=SMART_PIC, caption=cap, reply_markup=InlineKeyboardMarkup(btn))      
+            fek = await message.reply_photo(photo="https://graph.org/file/97235830d42b4fd4c9815.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1200)
+            await fek.delete()
+            await msg.delete()
     else:
-            await message.reply_photo(photo=SMART_PIC, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo="https://graph.org/file/e10a1c60e0de75459435e.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(1200)
+        await fuk.delete()
+        await msg.delete()
     if spoll:
         await msg.message.delete()
 
@@ -945,9 +957,9 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    m = await msg.reply(f"<b>Hey, {msg.from_user.mention}...😎\n\nCHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE.. \n\n दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें 👇👇👇</b>",
+    m = await msg.reply(f"<b>Hey, {msg.from_user.mention}...😎\n\nCHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE..</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
-    await asyncio.sleep(300)
+    await asyncio.sleep(30)
     await m.delete()
 
 
