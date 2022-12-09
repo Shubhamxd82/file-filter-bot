@@ -109,7 +109,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🔹 ᴴᵒʷ ᵗᵒ ᴼᵖᵉⁿ ᴸⁱⁿᵏ 🔹', url='https://youtu.be/cTVJuad-hMU')
+        InlineKeyboardButton('🔹 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ 🔹', url='https://t.me/iPapkornOfficial/291')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -846,7 +846,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="✪ ᴘᴀɢᴇ ✪ 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🔹 ᴴᵒʷ ᵗᵒ ᴼᵖᵉⁿ ᴸⁱⁿᵏ 🔹', url='https://youtu.be/cTVJuad-hMU')
+        InlineKeyboardButton('🔹 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ 🔹', url='https://t.me/iPapkornOfficial/291')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
