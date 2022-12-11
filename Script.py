@@ -324,7 +324,5 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
 ©️Mantained Bʏ  @AkshayChand10</b>"""
 
-M_NT_FND = """<b>⭕️ ᴛʜɪs ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ..\n\n⭕️ ᴡʀɪᴛᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ ꜰʀᴏᴍ ɢᴏᴏɢʟᴇ..\n\n⭕️ᴡʀɪᴛᴇ ᴏɴʟʏ ᴄᴏʀʀᴇᴄᴛ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ɴᴀᴍᴇ\n\n⭕️ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ 👇</b>"""
-
-
+M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
