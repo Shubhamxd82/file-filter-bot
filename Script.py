@@ -115,19 +115,16 @@ Name - {}
 
 More Features Add 1
 Extra Features: 
-🔹download songs,
-🔹download you tube video,
+🔹YT songs download 
+🔹download you tube video
 🔹URL Shortner
-
-<a href=https://t.me/sahid_malik>Sahid Malik</a>
-
-More Features Add 2
+🔹Files Store
 🔹Welcome message
 🔹Group adding message
 🔹Group start message
 🔹ShareUs Link Shortner Site 
 
-<a href=https://t.me/AkshayChand10>Akshay Chand</a></b>"""
+©️ Developer:- <a href=https://t.me/AkshayChand10>Akshay Chand</a></b>"""
 
     GHHN_TXT = """Extra features"""
 
@@ -327,7 +324,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
 ©️Mantained Bʏ  @AkshayChand10</b>"""
 
-M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
+M_NT_FND = """<b>⭕️ ᴛʜɪs ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ..\n\n⭕️ ᴡʀɪᴛᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ ꜰʀᴏᴍ ɢᴏᴏɢʟᴇ..\n\n⭕️ ᴅᴏ ɴᴏᴛ ᴀᴅᴅ sᴇᴀsᴏɴ ᴏʀ ᴇᴘɪsᴏᴅᴇ ..\n\n⭕️ᴅᴏ ɴᴏᴛ ᴀᴅᴅ ʟᴀɴɢᴜᴀɢᴇs ᴏʀ ʏᴇᴀʀ\n\n⭕️ᴡʀɪᴛᴇ ᴏɴʟʏ ᴄᴏʀʀᴇᴄᴛ ᴍᴏᴠɪᴇ/sᴇʀɪᴇs ɴᴀᴍᴇ\n\n⭕️ɪꜰ ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ᴛʜᴇɴ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ\n\n⭕️ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ 👇</b>"""
 
 
 
