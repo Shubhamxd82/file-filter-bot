@@ -181,7 +181,7 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/m_admins"),
+                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/+sJaVzpXTaExhMGNl"),
                                                                          
                                       ]]
                ),
