@@ -29,7 +29,7 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client,message):
     group_id = message.chat.id
     name = message.text
@@ -68,15 +68,11 @@ async def give_filter(client,message):
                             reply_markup=InlineKeyboardMarkup(button)
                         )
                 except Exception as e:
-                    print(e)
+                    logger.exception(e)
                 break 
 
     else:
-        if FILTER_MODE.get(str(message.chat.id)) == "False":
-            return
-        else:
-            await auto_filter(client, message)   
-
+        await auto_filter(client, message)   
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
