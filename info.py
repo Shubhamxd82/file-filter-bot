@@ -74,3 +74,14 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SHORTENER_API = environ.get("SHORTENER_API", 'NyqS16pjqUQu5bheRRGQlBEQPgm2')
 LONG_DROPLINK_URL = environ.get("LONG_DROPLINK_URL", False)
+
+
+MBGH = """Hay {}.\n\n {} results are already available for your query"""
+MAINTENANCE_MODE = is_enabled((environ.get('MAINTENANCE_MODE', "False")), False)
+PM_MAINTENANCE_MODE = is_enabled((environ.get('PM_MAINTENANCE_MODE', "False")), False)
+
+REQ_GRPOUP = int(environ.get('REQ_GRPOUP'))
+
+REQ_GRP = int(environ.get('REQ_GRP', '-1001878519368'))
+
+
