@@ -80,8 +80,6 @@ MBGH = """Hay {}.\n\n {} results are already available for your query"""
 MAINTENANCE_MODE = is_enabled((environ.get('MAINTENANCE_MODE', "False")), False)
 PM_MAINTENANCE_MODE = is_enabled((environ.get('PM_MAINTENANCE_MODE', "False")), False)
 
-REQ_GRPOUP = int(environ.get('REQ_GRPOUP'))
-
 REQ_GRP = int(environ.get('REQ_GRP', '-1001878519368'))
 
 
