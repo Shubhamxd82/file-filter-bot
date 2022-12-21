@@ -29,10 +29,11 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
-@Client.on_message(filters.text & ~filters.edited & filters.incoming)
-async def give_filter(client,message):
-    group_id = message.chat.id
-    name = message.text
+@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
+async def give_filter(client, message):
+    k = await manual_filters(client, message)
+    if k == False:
+        await auto_filter(client, message)
 
     keywords = await get_filters(group_id)
     for keyword in reversed(sorted(keywords, key=len)):
