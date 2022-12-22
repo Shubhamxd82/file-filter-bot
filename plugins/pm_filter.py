@@ -929,25 +929,25 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(1200)
+            await asyncio.sleep(2000)
             await hehe.delete()
             await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(1200)
+            await asyncio.sleep(2000)
             await hmm.delete()
             await message.delete()
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_photo(photo="https://graph.org/file/97235830d42b4fd4c9815.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(1200)
+            await asyncio.sleep(2000)
             await fek.delete()
             await msg.delete()
     else:
         fuk = await message.reply_photo(photo="https://graph.org/file/e10a1c60e0de75459435e.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(1200)
+        await asyncio.sleep(2000)
         await fuk.delete()
         await msg.delete()
     if spoll:
@@ -962,7 +962,7 @@ async def advantage_spell_chok(msg):
     reply = malik.replace(" ", '+')
     reply_markup = InlineKeyboardMarkup([[
     InlineKeyboardButton("ɪɴsᴛʀᴜᴄᴛɪᴏɴs", callback_data='inst'),
-    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+sJaVzpXTaExhMGNl")
+    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ 💌", url="https://t.me/+sJaVzpXTaExhMGNl")
     ],[
     InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
@@ -974,7 +974,7 @@ async def advantage_spell_chok(msg):
         caption=(MQTT.format(msg.from_user.mention, query)),
         reply_markup=reply_markup 
     ) 
-    await asyncio.sleep(35)
+    await asyncio.sleep(120)
     await dl.delete()
 
 
