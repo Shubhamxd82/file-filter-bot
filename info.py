@@ -31,7 +31,7 @@ VIDEO_VD = environ.get("VIDEO_VD", "https://telegra.ph/file/566ff238e36d9f242556
 PHT = environ.get("PHT", "https://telegra.ph/file/9b77b96a9d2f5dda7764b.jpg")
 PHTT = environ.get("PHTT", "https://graph.org/file/2182926ecba267071b0ec.jpg")
 M_NT_F = environ.get("M_NT_F", "https://telegra.ph/file/b9c8a8240590623ba43ee.jpg")
-MQTTP = environ.get("MQTTP", "https://telegra.ph/file/f8a3c7a57376427646f39.jpg")
+MQTTP = environ.get("MQTTP", "https://te.legra.ph/file/447646ba46375aa745e5c.jpg")
 
 
 
