@@ -962,7 +962,7 @@ async def advantage_spell_chok(msg):
     reply = malik.replace(" ", '+')
     reply_markup = InlineKeyboardMarkup([[
     InlineKeyboardButton("ɪɴsᴛʀᴜᴄᴛɪᴏɴs", callback_data='inst'),
-    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+56gqhso6EkA3NWQ1")
+    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+sJaVzpXTaExhMGNl")
     ],[
     InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
