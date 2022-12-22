@@ -110,21 +110,15 @@ Name - {}
 ɪᴛꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴍᴇ; ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ, ᴛʜᴀᴛꜱ ᴀʟʟ, ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴛʜᴇʀᴇ...😎
 ⚠️ ᴍᴏʀᴇ ʜᴇʟᴘ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ</b>"""
 
-    GHHM_TXT = """<b>Repo Developer
-<a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
+    GHHM_TXT = """<b>©️ Developer:- 
 
-More Features Add 1
-Extra Features: 
-🔹YT songs download 
-🔹download you tube video
-🔹URL Shortner
-🔹Files Store
-🔹Welcome message
-🔹Group adding message
-🔹Group start message
-🔹ShareUs Link Shortner Site 
+1} <a href=https://t.me/AkshayChand10>Akshay Chand</a>
 
-©️ Developer:- <a href=https://t.me/AkshayChand10>Akshay Chand</a></b>"""
+2} <a href=https://t.me/sahid_malik>Sahid Malik</a>
+
+3} <a href=https://t.me/Jokar48>ʝօӄǟʀ</a>
+
+4} <a href=https://t.me/LEGEND678AK>༺Leͥgeͣnͫd༻</a></b>"""
 
     GHHN_TXT = """Extra features"""
 
@@ -338,11 +332,19 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ:
 
 MQTT = """<b>⚠️ 𝐇𝐞𝐲, {}!..</b> 
 
-sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ
+sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs 📂 ᴡᴇʀᴇ ꜰᴏᴜɴᴅ
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ
+ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ 🔎 ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ
 
-ʀᴇᴀᴅ ɪɴsᴛʀᴜᴄᴛɪᴏɴs ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇsᴜʟᴛs ☟ <b>ᴀɴᴅ ʀᴇǫᴜᴇsᴛ ᴀᴅᴍɪɴ</b>"""
+sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ɢᴏᴏɢʟᴇ 🔎 ᴄᴏᴘʏ ᴛʜᴇ ɴᴀᴍᴇ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ
+
+ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 📊
+
+ɴᴏᴛ ʀᴇʟᴇᴀsᴇ ᴏᴛᴛ ʏᴇᴛ ⚠️
+
+ɪꜰ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴏɴ ᴏᴛᴛ ᴛʜᴇɴ ɴᴏᴛ ᴀᴅᴅ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙁 sᴇɴᴅ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ʏᴏᴜʀ ᴍᴏᴠɪᴇ..
+
+👇 <b>sᴇɴᴅ ʀᴇǫᴜᴇsᴛ 📩</b>"""
 
 
 
