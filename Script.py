@@ -326,3 +326,24 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
 M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
+INST = """ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ 
+
+ᴇxᴀᴍᴘʟᴇ : ᴀᴠᴇɴɢᴇʀs ᴏʀ ᴀᴠᴇɴɢᴇʀs 𝟸𝟶𝟷𝟸: 
+
+sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ: 
+
+ᴇxᴀᴍᴘʟᴇ : ʟᴏᴋɪ s01ᴇ01 ᴏʀ ʟᴏᴋɪ s01ᴇ10,  
+
+ᴅᴏɴ'ᴛ ᴜsᴇ ' : ( ! , . / ) """
+
+MQTT = """<b>⚠️ 𝐇𝐞𝐲, {}!..</b> 
+
+sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ
+
+ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ
+
+ʀᴇᴀᴅ ɪɴsᴛʀᴜᴄᴛɪᴏɴs ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇsᴜʟᴛs ☟ <b>ᴀɴᴅ ʀᴇǫᴜᴇsᴛ ᴀᴅᴍɪɴ</b>"""
+
+
+
+
