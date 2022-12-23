@@ -485,7 +485,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ', callback_data='ytthumb'),
             InlineKeyboardButton('ʏᴛ ᴠɪᴅᴇᴏ', callback_data='video')
         ], [
-            InlineKeyboardButton('ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ', callback_data='mbbumm'),
+            InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data='mbbumm'),
             InlineKeyboardButton('ꜰɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='malikk')
         ], [
             InlineKeyboardButton('📊 sᴛᴀᴛᴜs 📊', callback_data='stats')
@@ -962,7 +962,7 @@ async def advantage_spell_chok(msg):
     reply = malik.replace(" ", '+')
     reply_markup = InlineKeyboardMarkup([[
     InlineKeyboardButton("ɪɴsᴛʀᴜᴄᴛɪᴏɴs", callback_data='inst'),
-    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ 💌", url="https://t.me/+sJaVzpXTaExhMGNl")
+    InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+sJaVzpXTaExhMGNl")
     ],[
     InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
