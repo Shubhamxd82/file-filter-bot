@@ -110,15 +110,13 @@ Name - {}
 ɪᴛꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴍᴇ; ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ, ᴛʜᴀᴛꜱ ᴀʟʟ, ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴛʜᴇʀᴇ...😎
 ⚠️ ᴍᴏʀᴇ ʜᴇʟᴘ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ</b>"""
 
-    GHHM_TXT = """<b>©️ Developer:- 
+    GHHM_TXT = """<b>©️ Bot Owner's:- 
 
 1} <a href=https://t.me/AkshayChand10>Akshay Chand</a>
 
-2} <a href=https://t.me/sahid_malik>Sahid Malik</a>
+2} <a href=https://t.me/Jokar48>ʝօӄǟʀ</a>
 
-3} <a href=https://t.me/Jokar48>ʝօӄǟʀ</a>
-
-4} <a href=https://t.me/LEGEND678AK>༺Leͥgeͣnͫd༻</a></b>"""
+3} <a href=https://t.me/LEGEND678AK>༺Leͥgeͣnͫd༻</a></b>"""
 
     GHHN_TXT = """Extra features"""
 
