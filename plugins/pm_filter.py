@@ -941,12 +941,12 @@ async def auto_filter(client, msg, spoll=False):
             await message.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo="https://graph.org/file/97235830d42b4fd4c9815.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo=SMART_PIC, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(2000)
             await fek.delete()
             await msg.delete()
     else:
-        fuk = await message.reply_photo(photo="https://graph.org/file/e10a1c60e0de75459435e.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo=SMART_PIC, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(2000)
         await fuk.delete()
         await msg.delete()
