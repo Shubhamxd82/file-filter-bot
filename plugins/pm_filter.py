@@ -964,9 +964,12 @@ async def advantage_spell_chok(msg):
     InlineKeyboardButton("ɪɴsᴛʀᴜᴄᴛɪᴏɴs", callback_data='inst'),
     InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+sJaVzpXTaExhMGNl")
     ],[
+    InlineKeyboardButton("ᴄʟɪᴄᴋ ᴛᴏ ɪᴍᴅʙ", url=f"https://www.imdb.com/find/?q={reply}"),
+    InlineKeyboardButton("ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ", url=f"https://www.google.com/search?q={reply}+ott+release+date")
+    ],[
     InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
-    InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ  ᴛᴏ ᴄʜᴇᴄᴋ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅", url=f"https://www.google.com/search?q={reply}+release+date")
+    InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅", url=f"https://www.google.com/search?q={reply}+release+date")
     ]]  
     )    
     dl = await msg.reply_photo(
