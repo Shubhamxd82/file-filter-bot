@@ -104,7 +104,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⋆{get_size(file.file_size)}⋆ {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    text=f"✦{get_size(file.file_size)}⋆ {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -855,7 +855,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⋆{get_size(file.file_size)}⋆ {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
+                    text=f"✦{get_size(file.file_size)}⋆ {file.file_name}", url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
             ]
             for file in files
@@ -964,12 +964,13 @@ async def advantage_spell_chok(msg):
     InlineKeyboardButton("ɪɴsᴛʀᴜᴄᴛɪᴏɴs", callback_data='inst'),
     InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ", url="https://t.me/+sJaVzpXTaExhMGNl")
     ],[
-    InlineKeyboardButton("ᴄʟɪᴄᴋ ᴛᴏ ɪᴍᴅʙ", url=f"https://www.imdb.com/find/?q={reply}"),
-    InlineKeyboardButton("ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ", url=f"https://www.google.com/search?q={reply}+ott+release+date")
+    InlineKeyboardButton("⌯ ɪᴍᴅʙ ⌯", url=f"https://www.imdb.com/find/?q={reply}"),
+    InlineKeyboardButton("⌯ ᴡɪᴋɪᴘᴇᴅɪᴀ ⌯", url=f"https://en.m.wikipedia.org/w/index.php?search={reply}")
     ],[
-    InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ✅", url=f"https://www.google.com/search?q={reply}+movie")
+    InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ɢᴏᴏɢʟᴇ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
-    InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅", url=f"https://www.google.com/search?q={reply}+release+date")
+    InlineKeyboardButton("🔍 ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 🖥", url=f"https://www.google.com/search?q={reply}+ott+release+date")
+    InlineKeyboardButton("🔍 ᴛʜᴇᴀᴛʀᴇ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅", url=f"https://www.google.com/search?q={reply}+release+date")
     ]]  
     )    
     dl = await msg.reply_photo(
