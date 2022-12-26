@@ -969,7 +969,7 @@ async def advantage_spell_chok(msg):
     ],[
     InlineKeyboardButton("🔍 ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ sᴘɪʟʟɪɴɢ ɢᴏᴏɢʟᴇ ✅", url=f"https://www.google.com/search?q={reply}+movie")
     ],[
-    InlineKeyboardButton("🔍 ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 🖥", url=f"https://www.google.com/search?q={reply}+ott+release+date")
+    InlineKeyboardButton("🔍 ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 🖥", url=f"https://www.google.com/search?q={reply}+ott+release+date"),
     InlineKeyboardButton("🔍 ᴛʜᴇᴀᴛʀᴇ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅", url=f"https://www.google.com/search?q={reply}+release+date")
     ]]  
     )    
