@@ -83,6 +83,9 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 SHORTENER_API = environ.get("SHORTENER_API", 'NyqS16pjqUQu5bheRRGQlBEQPgm2')
 LONG_DROPLINK_URL = environ.get("LONG_DROPLINK_URL", False)
 
+SHORTENER_API_2 = environ.get("SHORTENER_API_2", 'moStQ1m0IGQtfO8NJ76zbcO6wjn1')
+LONG_DROPLINK_URL_2 = environ.get("LONG_DROPLINK_URL_2", False)
+
 
 MBGH = """Hay {}.\n\n {} results are already available for your query"""
 MAINTENANCE_MODE = is_enabled((environ.get('MAINTENANCE_MODE', "False")), False)
